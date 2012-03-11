@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: test | a Simple blog]]></title>
+  <link href="http://rehmetjan.github.com/blog/categories/test/atom.xml" rel="self"/>
+  <link href="http://rehmetjan.github.com/"/>
+  <updated>2012-03-12T04:24:38+08:00</updated>
+  <id>http://rehmetjan.github.com/</id>
+  <author>
+    <name><![CDATA[Rehmetjan Tursun]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello World]]></title>
+    <link href="http://rehmetjan.github.com/blog/2012/03/12/hello-world/"/>
+    <updated>2012-03-12T04:20:00+08:00</updated>
+    <id>http://rehmetjan.github.com/blog/2012/03/12/hello-world</id>
+    <content type="html"><![CDATA[<p>Hello, this is my first blog with Octopress!</p>
+]]></content>
+  </entry>
+  
+</feed>
