@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Rehmet.me]]></title>
-  <link href="http://rehmet.me/atom.xml" rel="self"/>
+  <title><![CDATA[Category: self | Rehmet.me]]></title>
+  <link href="http://rehmet.me/blog/categories/self/atom.xml" rel="self"/>
   <link href="http://rehmet.me/"/>
   <updated>2012-03-12T05:59:30+08:00</updated>
   <id>http://rehmet.me/</id>
@@ -18,17 +18,8 @@
     <link href="http://rehmet.me/blog/2012/03/12/i-dont-know-what-should-i-write/"/>
     <updated>2012-03-12T05:55:00+08:00</updated>
     <id>http://rehmet.me/blog/2012/03/12/i-dont-know-what-should-i-write</id>
-    <content type="html"><![CDATA[<p>As a computer developer, sometime I really think our writing is not good enough. I sitting in front of the computer for long time, but still don&#8217;t know what to write.
+    <content type="html"><![CDATA[<p>As a computer developer, sometime I really think our writing is not good enough. I sitting in front of the computer for long time, but still don't know what to write.
 So, I wrote this down.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello World]]></title>
-    <link href="http://rehmet.me/blog/2012/03/12/hello-world/"/>
-    <updated>2012-03-12T04:20:00+08:00</updated>
-    <id>http://rehmet.me/blog/2012/03/12/hello-world</id>
-    <content type="html"><![CDATA[<p>Hello, this is my first blog with Octopress!</p>
 ]]></content>
   </entry>
   
