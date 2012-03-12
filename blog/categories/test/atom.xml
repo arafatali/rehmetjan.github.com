@@ -4,7 +4,7 @@
   <title><![CDATA[Category: test | Rehmet.me]]></title>
   <link href="http://rehmet.me/blog/categories/test/atom.xml" rel="self"/>
   <link href="http://rehmet.me/"/>
-  <updated>2012-03-12T08:11:12+08:00</updated>
+  <updated>2012-03-12T08:50:00+08:00</updated>
   <id>http://rehmet.me/</id>
   <author>
     <name><![CDATA[Rehmetjan Tursun]]></name>
@@ -18,7 +18,7 @@
     <link href="http://rehmet.me/blog/2012/03/12/hello-world/"/>
     <updated>2012-03-12T04:20:00+08:00</updated>
     <id>http://rehmet.me/blog/2012/03/12/hello-world</id>
-    <content type="html"><![CDATA[<p>Hello, this is my first blog with Octopress!</p>
+    <content type="html"><![CDATA[<p>Hello World, this blog Powered by Octopress!</p>
 ]]></content>
   </entry>
   
