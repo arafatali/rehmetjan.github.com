@@ -4,7 +4,7 @@
   <title><![CDATA[Rehmetjan Tursun]]></title>
   <link href="http://rehmet.me/atom.xml" rel="self"/>
   <link href="http://rehmet.me/"/>
-  <updated>2012-03-13T05:54:04+08:00</updated>
+  <updated>2012-03-13T06:30:56+08:00</updated>
   <id>http://rehmet.me/</id>
   <author>
     <name><![CDATA[Rehmetjan Tursun]]></name>
@@ -12,6 +12,36 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Link Octopress to Sina Weibo]]></title>
+    <link href="http://rehmet.me/blog/2012/03/13/bind-octopress-to-sina-weibo/"/>
+    <updated>2012-03-13T06:09:00+08:00</updated>
+    <id>http://rehmet.me/blog/2012/03/13/bind-octopress-to-sina-weibo</id>
+    <content type="html"><![CDATA[<h2>Brief Introduction</h2>
+
+<p>Let me describe this with simple words. <br/>
+I want to <a href="http://weibo.com">Sina Weibo</a> automaticly publish a tweet when I post a new blog on here.</p>
+
+<h2>Using Google Reader</h2>
+
+<ol>
+<li><p>first of all, subscribe your blog with Google Reader. It will automatically find out RSS feed. if Not please enter http://yourdomain.com/atom.xml manually.</p></li>
+<li><p>Create a new folder/tag in your Subscription. You can simply press the drop-down label, at the right side of a subscription and choose &#8220;new folder&#8230;&#8221; in the below.</p></li>
+<li><p>once you created the folder/tag, click the drop-down label at the right, and choose &#8220;Create a bundle&#8221;</p></li>
+<li><p>Press save in the next dialog, it will shows as a list named &#8220;Your bundles&#8221;, Now our work are almost finish.</p></li>
+</ol>
+
+
+<p> 5, Press &#8220;Add a link&#8221; to your website or blog - it opens a new window and shows your RSS feeds, Copy this address and paste that into <a href="http://weibo.com/tool/bloglink">Sina Weibo Blog Link Services page</a></p>
+
+<p> 6, Done!</p>
+
+<h2>End</h2>
+
+<p>Now you can Post blog, it will automatically post a new tweet about your blog post.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Python for beginners]]></title>
