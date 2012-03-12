@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Hello World - Rehmet.me</title>
+  <title>Hello World - Rehmetjan Tursun</title>
   <meta name="author" content="Rehmetjan Tursun">
 
   
@@ -25,7 +25,7 @@
   <script src="/javascripts/modernizr-2.0.js"></script>
   <script src="/javascripts/ender.js"></script>
   <script src="/javascripts/octopress.js" type="text/javascript"></script>
-  <link href="/atom.xml" rel="alternate" title="Rehmet.me" type="application/atom+xml">
+  <link href="/atom.xml" rel="alternate" title="Rehmetjan Tursun" type="application/atom+xml">
   <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
@@ -48,9 +48,9 @@
 
 <body   >
   <header role="banner"><hgroup>
-  <h1><a href="/">Rehmet.me</a></h1>
+  <h1><a href="/">Rehmetjan Tursun</a></h1>
   
-    <h2>I have to do something.</h2>
+    <h2>Entrepreneur, Pythoner, Blogger</h2>
   
 </hgroup>
 
@@ -70,7 +70,7 @@
 <ul class="main-navigation">
   <li><a href="/">Blog</a></li>
   <li><a href="/blog/archives">Archives</a></li>
-  <li><a href="/about">About</a></li>
+  <li><a href="/resume">Resume</a></li>
 </ul>
 
 </nav>
@@ -151,7 +151,7 @@
 	    type:'2',
 	    count:'1', /**是否显示分享数，1显示(可选)*/
 	    appkey:'264112626', /**您申请的应用appkey,显示分享来源(可选)*/
-	    title:'Hello World － Rehmet.me', /**分享的文字内容(可选，默认为所在页面的title)*/
+	    title:'Hello World － Rehmetjan Tursun', /**分享的文字内容(可选，默认为所在页面的title)*/
 	    pic:'', /**分享图片的路径(可选)*/
 	    ralateUid:'1719098564', /**关联用户的UID，分享微博会@该用户(可选)*/
 		language:'zh_cn', /**设置语言，zh_cn|zh_tw(可选)*/
@@ -215,6 +215,35 @@
   </ul>
 </section>
 
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/rehmetjan">@rehmetjan</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'rehmetjan',
+            count: 4,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
 
 <section>
   <h1>Latest Tweets</h1>
@@ -232,24 +261,46 @@
   
 </section>
 
-
-
+<style>
+.googleplus ul li {
+	float:left;
+	margin-left:5px;
+	-webkit-box-shadow:white 0 0px;
+	-moz-box-shadow:white 0 0px;
+	-o-box-shadow:white 0 0px;
+	box-shadow:white 0 0px;
+	border-bottom:0px solid #E0E0E0;
+}
+</style>
 <section class="googleplus">
-  <h1>
-    <a href="https://plus.google.com/116914002813904501371?rel=author">
-      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
-      Google+
-    </a>
-  </h1>
-  <h1>
-    <a href="http://weibo.com/rehmet">
-      <img src="/images/weibo.gif" width="32" height="32">
-      新浪微博
-    </a>
-  </h1>
+  <h1>My Social Media</h1>
+<ul>
+	<li>
+	<a href="http://facebook.com/rehmetjan">
+		<img src="/images/media/facebook.png" width="32" height="32">
+  	</a>
+	</li>
+	<li>
+	<a href="http://twitter.com/rehmet">
+		<img src="/images/media/twitter.png" width="32" height="32">
+  	</a>
+	</li>
+	<li>
+	<a href="https://plus.google.com/116914002813904501371">
+	      <img src="/images/media/google.png" width="32" height="32">
+	</a>
+	</li>
+	<li>
+	<a href="http://www.linkedin.com/in/rehmetjan">
+		<img src="/images/media/linkedin.png" width="32" height="32">
+  	</a>
+	</li>
+	<li>
+	<a href="http://www.flickr.com/people/rehmet">
+		<img src="/images/media/flickr.png" width="32" height="32">
+  	</a>
+	</li>
 </section>
-
-
 
   
 </aside>
