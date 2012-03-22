@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: django | Rehmetjan Tursun]]></title>
+  <link href="http://rehmet.me/blog/categories/django/atom.xml" rel="self"/>
+  <link href="http://rehmet.me/"/>
+  <updated>2012-03-23T07:40:30+08:00</updated>
+  <id>http://rehmet.me/</id>
+  <author>
+    <name><![CDATA[Rehmetjan Tursun]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[django-registration sucks]]></title>
+    <link href="http://rehmet.me/blog/2012/03/23/django-registration-sucks/"/>
+    <updated>2012-03-23T07:30:00+08:00</updated>
+    <id>http://rehmet.me/blog/2012/03/23/django-registration-sucks</id>
+    <content type="html"><![CDATA[<h2>django-registration</h2>
+
+<p>Django is good, but I hate django-registration, why?</p>
+
+<ul>
+<li>no templates</li>
+<li>bad documents</li>
+<li>ugly urlconf</li>
+</ul>
+
+]]></content>
+  </entry>
+  
+</feed>
